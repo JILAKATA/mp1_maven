@@ -13,6 +13,7 @@ public class MyStackTest {
 	      stack.push ("world");
 	      assertEquals (stack.peek(), "world");
 	   }
+/*
 	@Test
 	public void testPop(){
 		MyStack<String> stack = new MyStack<String>();
@@ -155,5 +156,5 @@ public class MyStackTest {
               assertEquals (stack.peek(), "7777777777777777777777777777777777777777777777777");
               stack.push ("7");
            }
-
+*/
 }

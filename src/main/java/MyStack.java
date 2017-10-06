@@ -21,10 +21,12 @@ public class MyStack<E> {
 	public boolean empty() {
 		// Implement your code;
 		//list = 0;
-		if(list != null)
+		/*if(list != null)
 			return false;
 		else 
 			return true;
+		*/
+		return false;
 	}
 
 	// Empty the stack
@@ -66,8 +68,8 @@ public class MyStack<E> {
 	public int size() {
 		// implement your code
 		//if(list.size())
-			//return 0;
-		return list.size();
+		return 0;
+		//return list.size();
 	}
 
 	// toString override method
