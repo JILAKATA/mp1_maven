@@ -1,6 +1,9 @@
 import static org.junit.Assert.assertEquals;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
+
 
 public class MyStackTest {
 
@@ -13,6 +16,11 @@ public class MyStackTest {
 	      stack.push ("world");
 	      assertEquals (stack.peek(), "world");
 	   }
+
+	@Test
+	public void fallingTest(){
+		assertTrue(false);
+	}
 /*
 	@Test
 	public void testPop(){
