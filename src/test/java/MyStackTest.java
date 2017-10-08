@@ -17,10 +17,10 @@ public class MyStackTest {
 	      assertEquals (stack.peek(), "world");
 	   }
 
-	@Test
-	public void fallingTest(){
-		assertTrue(false);
-	}
+	//@Test
+	//public void fallingTest(){
+	//	assertTrue(false);
+	//}
 /*
 	@Test
 	public void testPop(){
